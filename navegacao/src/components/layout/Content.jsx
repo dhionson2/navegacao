@@ -12,7 +12,7 @@ const Content = () => (
     <Routes>
       <Route path="/about" element={<About />} />
       <Route path="/param/:id" element={<Param />} />
-      <Route path="/" element={<Home />} />
+      <Route exact path="/" element={<Home />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </main>

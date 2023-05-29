@@ -18,6 +18,9 @@ const Menu = props => (
                 <li>
                     <Link to="/about">Sobre</Link>
                 </li>
+                <li>
+                    <Link to="/nao">Não existe</Link>
+                </li>
                 
             </ul>
         </nav>
