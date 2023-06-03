@@ -4,16 +4,23 @@ import { BrowserRouter as Router } from  'react-router-dom'
 
 import Menu from '../components/layout/Menu'
 import Content from '../components/layout/Content'
+//fazendo assim eu passo pra toda minha aplicação o objeto data do meu dataContext.js
+import  DataContext, { data }  from '../data/DataContext'
+import { useState } from 'react'
 
 const App = props => {
 
+    const [state, setState] = useState(data)
+
     return (
+        <DataContext.Provider value={{state, setState}}>
                 <div className="App">
                     <Router>
                         <Menu />
                         <Content />
                     </Router>
                 </div>
+        </DataContext.Provider>
     )
 }
 
