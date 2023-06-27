@@ -12,6 +12,7 @@ import UseMemo from '../../views/examples/UseMemo'
 import UseContext from '../../views/examples/UseContext'
 import UseReducer from '../../views/examples/UseReducer'
 import UseCustom from '../../views/examples/UseCustom'
+import PaginaCadastro from '../../views/examples/PaginaCadastro'
 
 const Content = props => (
     <main className="Content">
@@ -43,9 +44,13 @@ const Content = props => (
             <Route path="/useCustom">
                 <UseCustom />
             </Route>
+            <Route  path="/cadastro">
+                <PaginaCadastro/>
+            </Route>
             <Route path="*">
                 <NotFound />
             </Route>
+          
         </Switch>
     </main>
 )

@@ -1,6 +1,9 @@
 import './App.css'
 import React from 'react'
 import { BrowserRouter as Router } from  'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.css';
+
+
 
 import Menu from '../components/layout/Menu'
 import Content from '../components/layout/Content'

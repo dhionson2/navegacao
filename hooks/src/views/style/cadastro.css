@@ -1,0 +1,20 @@
+.labelText {
+    color: #080808;
+    margin-bottom: 10px;
+    font-size: 36px; /* Tamanho da fonte */
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto */
+  }
+  
+.divMenuText{
+    padding: 7px;
+    background: linear-gradient(to top, #00b4db, #006c90);
+    border-radius: 30px;
+}
+.textAreac {
+    border-radius: 10px;
+    
+  }
+  
+  .textAreac:focus {
+    background: linear-gradient(to top, #bfe8f1, #dbdbdb);
+  }
